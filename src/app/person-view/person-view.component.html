@@ -1,0 +1,10 @@
+<h2>{{person.name}}</h2>
+From {{person.homeworld}}
+<div>
+    Appears in:
+    <ul>
+        <li *ngFor="let f of person.films">
+            {{f}}
+        </li>
+    </ul>
+</div>
