@@ -9,7 +9,7 @@ import { People } from '../interfaces/person';
 })
 export class PeopleViewComponent implements OnInit {
   people:People;
-
+  
   constructor(private swapi:StarWarsService) { }
 
   ngOnInit(): void {

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "StarWarsAPI"
+    }
+  },
+  "defaultProject": "StarWarsAPI",
+  "cli": {
+    "analytics": false
+  }
 }
